@@ -396,14 +396,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011218108}
     m_Modifications:
-    - target: {fileID: 833290900, guid: 36355a8acffc1a3429cbacaa0d858a24, type: 3}
-      propertyPath: MaxDistance
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 833290900, guid: 36355a8acffc1a3429cbacaa0d858a24, type: 3}
-      propertyPath: MinDistance
-      value: 0.52
-      objectReference: {fileID: 0}
     - target: {fileID: 1000012805669232, guid: 36355a8acffc1a3429cbacaa0d858a24, type: 3}
       propertyPath: m_Name
       value: Streetlight_ON_item
