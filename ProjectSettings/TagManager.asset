@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Spline
+  - Grass
+  - Wood
+  - Stone
+  - Indoor
   layers:
   - Default
   - TransparentFX

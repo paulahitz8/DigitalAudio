@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 605756379119212549}
   m_LocalRotation: {x: -0.94442797, y: 0.10018009, z: 0.033024766, w: 0.31133443}
   m_LocalPosition: {x: 0, y: 0, z: -0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.7328546, y: 1.7328546, z: 1.7328546}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4442688263573174869}
@@ -42,7 +42,7 @@ AudioSource:
   m_GameObject: {fileID: 605756379119212549}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 4668812102422020967, guid: 78fb94310b6ccd54a9b01e4e90e8541e, type: 2}
   m_audioClip: {fileID: 8300000, guid: 7b57fc7fd882604449295d410a8edd42, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -54,7 +54,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 3
+  MaxDistance: 4.67
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -140,6 +140,7 @@ GameObject:
   - component: {fileID: 4442688263573174869}
   - component: {fileID: 4263533415550577371}
   - component: {fileID: 7359356591650381648}
+  - component: {fileID: 1192820041}
   m_Layer: 0
   m_Name: Mesh
   m_TagString: Untagged
@@ -154,14 +155,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1205693955625067110}
-  m_LocalRotation: {x: 0, y: 0, z: -0, w: -1}
+  m_LocalRotation: {x: -0.94442797, y: 0.10018009, z: 0.033024766, w: 0.31133443}
   m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2518818496852281015}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -143.51, y: 0, z: 12.11}
 --- !u!33 &4263533415550577371
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -212,3 +213,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1192820041
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205693955625067110}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 173731ad848896a4d89132b002bf8387, type: 2}
